@@ -1,22 +1,55 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-<title>My First Activity</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Homework 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/contact.css" />
+    <script src="main.js"></script>
 </head>
-<h1>Contact</h1>
-<hr>
-
 <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu mattis ligula. 
-        Phasellus finibus sollicitudin orci ac mollis. Integer accumsan purus ut sollicitudin 
-        egestas. Donec mattis leo mattis, sagittis ante dictum, tristique enim. Donec sit 
-        amet lorem sed mauris hendrerit pharetra id vel urna. Etiam porttitor faucibus tortor, 
-        nec laoreet odio varius consequat. Fusce sollicitudin felis odio, sit amet accumsan 
-        neque efficitur eget. Morbi eleifend semper accumsan. Aenean suscipit tempor elit a 
-        interdum. Quisque vel eleifend felis, quis tempus enim. In hac habitasse platea dictumst. 
-        Quisque nibh eros, finibus in suscipit ut, molestie a sapien.</p>
+    <header>
+        <nav>
+            <p id="name">Laura Smith</p>
+            
+            <div class="links">
+                <p class="about">  <a href="about.html">About</a></p>
+                <p class="portfolio"><a href="portfolio.html">Portfolio</a></p>
+                <p class="contact"><a href="contact.html">Contact</a></p> 
+            </div>
+        </nav>
+    </header>
+    
+    <div class= "text-container"> 
+        
+        <h1 class="ctitle">Contact</h1>
+        <hr>
 
-
-
-
+        <div class="container">
+           
+        <form action="action_page.php">
+          
+              <label for="fname">Name</label>
+              <input type="text" id="firstname" name="fname" placeholder="John Smith">
+          
+              <label for="lname">Email</label>
+              <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+          
+              <label for="message">Message</label>
+              <textarea id="message" name="message" style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+        </form>
+        </div>
+        
+    </div>
+<br>
+<br>
+    <footer>
+        copyright ©
+    </footer>
 </body>
 </html>

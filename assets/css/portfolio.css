@@ -25,6 +25,11 @@ body {
     position: relative;
 }
 
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
 .links {
     font-family: Arial, Helvetica, sans-serif;
     background: #ffffff;
@@ -63,11 +68,11 @@ hr {
     clear: both;
     height: 1px;
     background-color: #777777;
-    
 }
 
 .text-container {
     width: 960px;
+    height: 1110px;
     margin: auto;
     margin-top: 25px;
     padding: 25px;
@@ -80,7 +85,7 @@ hr {
     border-color: #dddddd;
 }
 
-.aboutme {
+.ptitle {
     clear: both;
     margin: 0;
     padding-bottom: 15px;
@@ -90,20 +95,48 @@ hr {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-.paragraph {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 35px;
-}
-
-img {
+.img1 {
     float: left;
-    padding-right: 20px;
-    padding-top: 10px;
+    padding: 15px;
+    position: relative;
 }
 
-.me {
-    padding: 25px;
+.img2 {
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+
+.img3 {
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+
+.img4 {
+    float: left;
+    padding: 15px;
+    position: relative; 
+}  
+
+.img5 {
+    float: left;
+    padding: 15px;
+    position: relative; 
+}
+
+h2 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    font-size: 20px;
+    z-index: 2;
+    margin-top: 75px;
+    position: absolute;
+    top: 200px;
+    width: 320px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer {
@@ -118,6 +151,4 @@ footer {
     border-top: solid;
     border-top-width: 8px;
     border-color: #4aaaa5;
-    box-shadow: 0 1px 1px #cccccc;
-
 }
